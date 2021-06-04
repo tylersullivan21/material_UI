@@ -25,26 +25,25 @@ export default function ImgMediaCard() {
         <CardMedia
           component="img"
           alt="Contemplative Reptile"
-          height="330"
+          height="345"
           image={stormImage}
           title="Contemplative Reptile"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            Lizard
+            Archer
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-            Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-            across all continents except Antarctica
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, assumenda.
           </Typography>
         </CardContent>
       </CardActionArea>
       <CardActions>
         <Button size="small" color="primary">
-          Share
+          Button 1
         </Button>
         <Button size="small" color="primary">
-          Learn More
+          Button 2
         </Button>
       </CardActions>
     </Card>
