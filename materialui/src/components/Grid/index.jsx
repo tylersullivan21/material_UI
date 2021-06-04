@@ -9,6 +9,7 @@ const classes = {
   },
   paper: {
     padding: 20,
+    margin:50,
     textAlign: "center",
     color: "#777"
   }
@@ -33,15 +34,13 @@ export default function NestedGridDemo() {
 
   return (
     <div className={classes.root}>
-      <Grid container spacing={1}>
+      <Grid container spacing={3}>
+      
         <Grid container item xs={12} spacing={3}>
+          <InnerGrid />
+          <Grid container item xs={12} spacing={3}>
           <InnerGrid />
         </Grid>
-        <Grid container item xs={12} spacing={3}>
-          <InnerGrid />
-        </Grid>
-        <Grid container item xs={12} spacing={3}>
-          <InnerGrid />
         </Grid>
       </Grid>
     </div>
