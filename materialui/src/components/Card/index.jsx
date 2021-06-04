@@ -7,6 +7,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
+import stormImage from '../../img/lucy-chian-LYq7W1lRal4-unsplash.jpg';
 
 const useStyles = makeStyles({
   root: {
@@ -24,8 +25,8 @@ export default function ImgMediaCard() {
         <CardMedia
           component="img"
           alt="Contemplative Reptile"
-          height="140"
-          image="/static/images/cards/contemplative-reptile.jpg"
+          height="300"
+          image={stormImage}
           title="Contemplative Reptile"
         />
         <CardContent>
