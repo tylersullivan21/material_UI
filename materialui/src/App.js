@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import Button from "@material-ui/core/Button";
-import FullWidthGrid from "./components/Grid";
+import NestedGridDemo from "./components/Grid";
 function App() {
   return (
     <div>
-    <FullWidthGrid/>
+    <NestedGridDemo/>
     </div>
   );
 }
