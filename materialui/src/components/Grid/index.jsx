@@ -19,27 +19,27 @@ export default function FullWidthGrid() {
 
   return (
     <div className={classes.root}>
-      <Grid container spacing={1}>
+      <Grid container spacing={2}>
         <Grid item xs={12}>
-         <ImgMediaCard/>
+          <Paper className={classes.paper}>xs=12</Paper>
         </Grid>
         <Grid item xs={12} sm={6}>
-        <ImgMediaCard/>
+          <Paper className={classes.paper}>xs=12 sm=6</Paper>
         </Grid>
         <Grid item xs={12} sm={6}>
-        <ImgMediaCard/>
+          <Paper className={classes.paper}>xs=12 sm=6</Paper>
         </Grid>
         <Grid item xs={6} sm={3}>
-        <ImgMediaCard/>
+          <Paper className={classes.paper}>xs=6 sm=3</Paper>
         </Grid>
         <Grid item xs={6} sm={3}>
-        <ImgMediaCard/>
+          <Paper className={classes.paper}>xs=6 sm=3</Paper>
         </Grid>
         <Grid item xs={6} sm={3}>
-        <ImgMediaCard/>
+          <Paper className={classes.paper}>xs=6 sm=3</Paper>
         </Grid>
         <Grid item xs={6} sm={3}>
-        <ImgMediaCard/>
+          <Paper className={classes.paper}>xs=6 sm=3</Paper>
         </Grid>
       </Grid>
     </div>
