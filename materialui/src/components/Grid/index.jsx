@@ -2,7 +2,7 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
-
+import Card from "../Card";
 const classes = {
   root: {
     flexGrow: 1
@@ -20,13 +20,13 @@ export default function NestedGridDemo() {
     return (
       <React.Fragment>
         <Grid item xs={4}>
-          <Paper className={classes.paper}>item</Paper>
+          <Card />
         </Grid>
         <Grid item xs={4}>
-          <Paper className={classes.paper}>item</Paper>
+        <Card />
         </Grid>
         <Grid item xs={4}>
-          <Paper className={classes.paper}>item</Paper>
+        <Card />
         </Grid>
       </React.Fragment>
     );
