@@ -19,13 +19,13 @@ export default function NestedGridDemo() {
   function InnerGrid() {
     return (
       <React.Fragment>
-        <Grid item xs={4}>
+        <Grid alignContent={"center"} item xs={4}>
           <Card />
         </Grid>
-        <Grid item xs={4}>
+        <Grid alignContent={"center"} item xs={4}>
         <Card />
         </Grid>
-        <Grid item xs={4}>
+        <Grid alignContent={"center"} item xs={4}>
         <Card />
         </Grid>
       </React.Fragment>
@@ -34,11 +34,11 @@ export default function NestedGridDemo() {
 
   return (
     <div className={classes.root}>
-      <Grid container spacing={3}>
+      <Grid container spacing={1}>
       
-        <Grid container item xs={12} spacing={3}>
+        <Grid container item xs={12} alignContent={"center"} spacing={1}>
           <InnerGrid />
-          <Grid container item xs={12} spacing={3}>
+          <Grid container item xs={12} spacing={1} alignContent={"center"}>
           <InnerGrid />
         </Grid>
         </Grid>
