@@ -25,7 +25,7 @@ export default function ImgMediaCard() {
         <CardMedia
           component="img"
           alt="Contemplative Reptile"
-          height="300"
+          height="330"
           image={stormImage}
           title="Contemplative Reptile"
         />
